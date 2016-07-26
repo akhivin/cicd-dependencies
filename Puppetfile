@@ -113,6 +113,8 @@ mod 'openstackinfra-user',
 mod 'openstackinfra-jeepyb',
     :git => 'https://github.com/openstack-infra/puppet-jeepyb.git'
 
-
+mod 'openstackinfra-openstack_project',
+    :git => 'https://github.com/openstack-infra/system-config.git',
+    :path => "modules/openstack_project
 
 
