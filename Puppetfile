@@ -115,6 +115,6 @@ mod 'openstackinfra-jeepyb',
 
 mod 'openstackinfra-openstack_project',
     :git => 'https://github.com/openstack-infra/system-config.git',
-    :path => "modules/openstack_project
+    :path => 'modules/openstack_project'
 
 
