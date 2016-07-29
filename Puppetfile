@@ -117,4 +117,9 @@ mod 'openstackinfra-openstack_project',
     :git => 'https://github.com/openstack-infra/system-config.git',
     :path => 'modules/openstack_project'
 
+mod 'openstackinfra-snmpd',
+    :git => 'https://github.com/openstack-infra/puppet-snmpd.git'
+
+mod 'openstackinfra-exim',
+    :git => 'https://github.com/openstack-infra/puppet-exim.git'
 
