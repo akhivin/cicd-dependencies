@@ -1,20 +1,19 @@
 forge "https://forgeapi.puppetlabs.com"
 
-mod 'nanliu-staging', '1.0.3'
-mod 'nanliu-archive'
-
-mod 'puppetlabs-apache'
-mod 'puppetlabs-apt', '2.1.0'
-mod 'puppetlabs-concat'
-mod 'puppetlabs-mysql', '3.6.2'
 mod 'puppetlabs-stdlib', '4.12.0'
+mod 'puppetlabs-apache'
+mod 'puppetlabs-concat'
+mod 'puppetlabs-mysql'
+mod 'puppetlabs-stdlib'
 mod 'puppetlabs-pe_gem'
 mod 'puppetlabs-ntp'
 mod 'puppetlabs-corosync'
-mod 'puppetlabs-firewall', '1.7.0'
 mod 'puppetlabs-haproxy'
 mod 'puppetlabs-inifile'
 mod 'puppetlabs-postgresql'
+
+mod 'nanliu-staging', '1.0.3'
+mod 'nanliu-archive'
 
 mod 'camptocamp-archive'
 mod 'stankevich-python'
@@ -122,4 +121,3 @@ mod 'openstackinfra-snmpd',
 
 mod 'openstackinfra-exim',
     :git => 'https://github.com/openstack-infra/puppet-exim.git'
-
