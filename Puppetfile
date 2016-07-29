@@ -4,7 +4,7 @@ mod 'nanliu-staging', '1.0.3'
 mod 'nanliu-archive'
 
 mod 'puppetlabs-apache'
-mod 'puppetlabs-apt', '1.8.0'
+mod 'puppetlabs-apt', '2.1.0'
 mod 'puppetlabs-concat'
 mod 'puppetlabs-mysql', '3.6.2'
 mod 'puppetlabs-stdlib', '4.12.0'
