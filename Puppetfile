@@ -51,9 +51,6 @@ mod 'openstackinfra-httpd',
 mod 'openstackinfra-vcsrepo',
     :git => 'https://github.com/openstack-infra/puppet-vcsrepo.git'
 
-mod 'openstackinfra-nodepool',
-    :git => 'https://github.com/openstack-infra/puppet-nodepool.git'
-
 mod 'openstackinfra-diskimage_builder',
     :git => 'https://github.com/openstack-infra/puppet-diskimage_builder.git'
 
