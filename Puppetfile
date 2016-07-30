@@ -1,5 +1,7 @@
 forge "https://forgeapi.puppetlabs.com"
 
+mod 'datacentred-ldap'
+
 mod 'puppetlabs-stdlib', '4.12.0'
 mod 'puppetlabs-apache'
 mod 'puppetlabs-concat'
