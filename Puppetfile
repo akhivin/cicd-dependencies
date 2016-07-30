@@ -24,6 +24,9 @@ mod 'jfryman-selinux'
 mod 'maestrodev-wget'
 mod 'saz-timezone'
 
+mod 'openstackinfra-bup',
+   :git => 'https://github.com/openstack-infra/puppet-bup.git'
+
 mod 'openstackinfra-gerritbot',
    :git => 'https://github.com/openstack-infra/puppet-gerritbot.git'
 
