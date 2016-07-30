@@ -1,7 +1,5 @@
 forge "https://forgeapi.puppetlabs.com"
 
-mod 'datacentred-ldap'
-
 mod 'puppetlabs-stdlib', '4.12.0'
 mod 'puppetlabs-apache'
 mod 'puppetlabs-concat'
@@ -25,6 +23,9 @@ mod 'golja-gnupg'
 mod 'jfryman-selinux'
 mod 'maestrodev-wget'
 mod 'saz-timezone'
+
+mod 'openstackinfra-mysql_backup',
+   :git => 'https://github.com/openstack-infra/puppet-mysql_backup.git'
 
 mod 'openstack-openstacklib',
    :git => 'https://github.com/openstack/puppet-openstacklib.git'
