@@ -24,6 +24,9 @@ mod 'jfryman-selinux'
 mod 'maestrodev-wget'
 mod 'saz-timezone'
 
+mod 'openstackinfra-github',
+   :git => 'https://github.com/openstack-infra/puppet-github.git'
+
 mod 'openstackinfra-mysql_backup',
    :git => 'https://github.com/openstack-infra/puppet-mysql_backup.git'
 
