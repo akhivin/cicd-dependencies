@@ -121,7 +121,7 @@ mod 'openstackinfra-jeepyb',
     :git => 'https://github.com/openstack-infra/puppet-jeepyb.git'
 
 mod 'openstackinfra-openstack_project',
-    :git => 'https://github.com/openstack-infra/system-config.git',
+    :git => 'https://github.com/akhivin/system-config.git',
     :path => 'modules/openstack_project'
 
 mod 'openstackinfra-snmpd',
