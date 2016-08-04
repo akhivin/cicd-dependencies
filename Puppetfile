@@ -70,7 +70,7 @@ mod 'openstackinfra-openstackci',
     :git => 'https://github.com/openstack-infra/puppet-openstackci.git'
 
 mod 'openstackinfra-project_config',
-    :git => 'https://review.fuel-infra.org/open-paas/project-config'
+    :git => 'https://github.com/openstack-infra/puppet-project_config.git'
 
 mod 'openstackinfra-zuul',
     :git => 'https://github.com/openstack-infra/puppet-zuul.git'
